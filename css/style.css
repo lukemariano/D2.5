@@ -2,13 +2,15 @@ html{
     scroll-behavior: smooth;
 }
 
-body {
+.background {
     background-color: #2e2d4c;
+    background-image: url(../img/background-foods.png);
+    background-attachment:fixed;
 }
 
 .conteudo {
     width: 72%;
-    margin: 120px auto;
+    margin: auto;
     background-color: #fff;
     padding: 50px;
     border-radius: 10px;
@@ -17,7 +19,7 @@ body {
 .cabecalho {
     text-align: center;
     color: #fff;
-    margin: 100px auto;
+    margin: auto;
     padding: 30px;
 
 }
