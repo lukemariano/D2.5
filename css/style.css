@@ -2,6 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: "Lora", serif;
+}
+
 .background {
     background-color: #2e2d4c;
     background-image: url(../img/background-foods.png);
@@ -9,6 +13,7 @@ html{
 }
 
 .conteudo {
+    line-height: 3rem;
     width: 72%;
     margin: auto;
     background-color: #fff;
@@ -42,7 +47,7 @@ html{
 }
 
 .navigation li a:hover {
-    color: rgb(255, 166, 0);
+    color: rgb(255, 137, 0);
     text-decoration: underline;
 }
 
@@ -51,6 +56,7 @@ html{
     text-decoration: underline;
 }
 .conteudo .avatar{
+    
     float: left;
     width: 140px;
     padding: 20px;
@@ -63,4 +69,33 @@ html{
 .titulo {
     font-size: 1.9rem;
     margin-top: 50px;
+}
+
+.titulo--fonte{
+    font-family: "Exo 2", sans-serif;
+}
+
+/* .fotos{
+    column-count: 4;
+} */
+
+.fotos img{
+    border-radius: 8px;
+    filter: grayscale(0.4);
+    width: 455px;
+    height: 240px;
+   
+}
+
+.fotos img:hover{
+    filter: none;
+}
+
+.habilidades label {
+    display: inline-block;
+    width: 260px;
+}
+
+.habilidades progress {
+    accent-color: #2d2e4c ;
 }
