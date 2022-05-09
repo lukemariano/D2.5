@@ -1,0 +1,64 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2e2d4c;
+}
+
+.conteudo {
+    width: 72%;
+    margin: 120px auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.cabecalho {
+    text-align: center;
+    color: #fff;
+    margin: 100px auto;
+    padding: 30px;
+
+}
+
+.logo img {
+    width: 220px;
+}
+
+.navigation li{
+    display: inline-block;
+    width: 150px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.navigation li a:link,
+.navigation li a:visited{
+   color: black;
+   text-decoration: none;
+}
+
+.navigation li a:hover {
+    color: rgb(255, 166, 0);
+    text-decoration: underline;
+}
+
+.navigation li a:active {
+    color: pink;
+    text-decoration: underline;
+}
+.conteudo .avatar{
+    float: left;
+    width: 140px;
+    padding: 20px;
+}
+
+.fonte--media {
+    font-size: 1.7rem;
+}
+
+.titulo {
+    font-size: 1.9rem;
+    margin-top: 50px;
+}
