@@ -27,6 +27,8 @@ body {
     border-radius: 50px;
     margin-bottom: 220px;
     padding: 60px;
+    box-shadow: -10px 8px 30px #312f2f;
+    z-index: 2;
 }
 
 ul.experiencia{
@@ -131,9 +133,9 @@ ul.experiencia{
     background-color: #fff;
     border-radius: 50%;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0.1;
+    bottom: 30px;
+    right: 30px;
+    opacity: 0.3;
 }
 
 .btn-inicio:hover{
@@ -145,7 +147,6 @@ ul.experiencia{
     padding: 120px;
     background-color: #1b1a2f;
     color: #fff;
-    font-size: 30px;
     text-align: center;
 }
 
@@ -186,7 +187,7 @@ ul.experiencia{
 
 @media (max-width: 720px){
     body {
-        position: absolute;
+        position: relative;
     }
 
     .logo img {
@@ -199,12 +200,34 @@ ul.experiencia{
 
 
     .fonte--media {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+        line-height: 25px;
     }
 
     .navigation li {
-        width: 130px;
-        font-size: 1.1rem;
+        width: 32%;
+        font-size: 0.7rem;
+        display: inline-block;
     }
+    .fotos img{
+        border-radius: 8px;
+        filter: grayscale(0.4);
+        width: 72%;
+        height: 72%;
+        object-fit: cover;
+        margin-right: 18px;
+        margin-top: 4px;
+       
+    }
+
+    .conteudo{
+        width: 68%;
+    }
+
+    .text-size-header {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
     
 }
