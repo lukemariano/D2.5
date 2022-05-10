@@ -10,21 +10,33 @@ body {
     background-color: #2e2d4c;
     background-image: url(../img/background-foods.png);
     background-attachment:fixed;
+    padding: 2px;
+}
+
+.navigation{
+    margin-bottom: 50px;
 }
 
 .conteudo {
     line-height: 3rem;
     width: 72%;
+    max-width: 940px;
     margin: auto;
     background-color: #fff;
     padding: 50px;
-    border-radius: 10px;
+    border-radius: 50px;
+    margin-bottom: 220px;
+    padding: 80px;
+}
+
+ul.experiencia{
+    padding-left: 26px;
 }
 
 .cabecalho {
     text-align: center;
     color: #fff;
-    margin: auto;
+    margin: 100px auto;
     padding: 30px;
 
 }
@@ -82,8 +94,11 @@ body {
 .fotos img{
     border-radius: 8px;
     filter: grayscale(0.4);
-    width: 455px;
+    width: 448px;
     height: 240px;
+    object-fit: cover;
+    margin-right: 18px;
+    margin-top: 4px;
    
 }
 
@@ -119,3 +134,10 @@ body {
     opacity: 1;
 }
 
+.footer{
+    position: relative;
+    padding: 120px;
+    background-color: #1b1a2f;
+    color: #fff;
+    text-align: center;
+}
