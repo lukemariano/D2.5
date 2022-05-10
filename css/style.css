@@ -45,11 +45,17 @@ ul.experiencia{
     width: 220px;
 }
 
+.navigation ul{
+    overflow: hidden;
+}
+
 .navigation li{
     display: inline-block;
     width: 150px;
     font-size: 1.2rem;
     text-transform: uppercase;
+
+    
 }
 
 .navigation li a:link,
@@ -64,8 +70,7 @@ ul.experiencia{
 }
 
 .navigation li a:active {
-    color: pink;
-    text-decoration: underline;
+    color: gray;
 }
 .conteudo .avatar{
     
@@ -139,5 +144,41 @@ ul.experiencia{
     padding: 120px;
     background-color: #1b1a2f;
     color: #fff;
+    font-size: 30px;
     text-align: center;
+}
+
+.footer h4{
+    margin-bottom: 40px;
+}
+
+.logotipo {
+    color: #2d2e4c;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    font-size: 1.8rem;
+    padding-top: 10px;
+    z-index: 1;
+
+}
+
+.logomarca.fundo {
+    background-color: #fff;
+    width: 100px;
+    height: 100px; 
+    float: right;
+    margin-right: 50%;
+    margin-top: -50px;
+    transform: translateX(50%) rotate(45deg);
+
+}
+
+.color-opacity-text {
+    opacity: 0.6;
+}
+
+.text-size-header{
+    font-size: 45px;
+    margin-top: 30px;
 }
