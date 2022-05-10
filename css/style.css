@@ -26,7 +26,7 @@ body {
     padding: 50px;
     border-radius: 50px;
     margin-bottom: 220px;
-    padding: 80px;
+    padding: 60px;
 }
 
 ul.experiencia{
@@ -34,6 +34,7 @@ ul.experiencia{
 }
 
 .cabecalho {
+    width: 72%;
     text-align: center;
     color: #fff;
     margin: 100px auto;
