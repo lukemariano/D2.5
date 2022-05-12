@@ -148,10 +148,12 @@ ul.experiencia{
     background-color: #1b1a2f;
     color: #fff;
     text-align: center;
+    font-size: 25px;
 }
 
 .footer h4{
     margin-bottom: 40px;
+    
 }
 
 .logotipo {
@@ -229,5 +231,15 @@ ul.experiencia{
         margin-top: 30px;
     }
 
+    .footer{
+        position: relative;
+        padding: 41px;
+        background-color: #1b1a2f;
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+    }
+
     
 }
+
